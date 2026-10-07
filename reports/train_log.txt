@@ -1,0 +1,12 @@
+9,908 trading days | train 6,875 | val 1,486 | test 1,487
+  train 1981-03-12 -> 2008-06-10   up days 50.7%
+  val   2008-06-11 -> 2014-05-06   up days 52.6%
+  test  2014-05-07 -> 2020-04-01   up days 52.8%
+  ridge alpha chosen on val: 10000.0
+  LSTM seed 42: test skill +0.09%  dir acc 49.8%  (149s)
+  LSTM seed 43: test skill -0.09%  dir acc 50.7%  (124s)
+  LSTM seed 44: test skill -0.07%  dir acc 50.4%  (154s)
+  GRU seed 42: test skill +0.20%  dir acc 48.9%  (169s)
+  GRU seed 43: test skill +0.14%  dir acc 51.0%  (86s)
+  GRU seed 44: test skill -0.84%  dir acc 51.0%  (159s)
+  Original: GRU on raw prices: test price R2 -3.43  (994s)

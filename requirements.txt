@@ -1,0 +1,9 @@
+# Core: data pipeline, baselines, metrics, tests
+numpy>=2.0
+pandas>=2.2
+# Pinned: models/preprocessing_and_ridge.joblib is a pickle tied to this version
+scikit-learn==1.9.1
+scipy>=1.13
+matplotlib>=3.9
+joblib>=1.4
+pytest>=8
